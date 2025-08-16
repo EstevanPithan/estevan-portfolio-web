@@ -1,4 +1,4 @@
-import { ThemeToggle } from '@/components/theme-toggle'
+import { ThemeToggle } from './ThemeToggle'
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { cn } from '@/lib/utils'
@@ -23,7 +23,7 @@ export function Header() {
 	}
 
 	return (
-		<header className="bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b backdrop-blur">
+		<header className="bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 flex w-full items-center justify-center border-b backdrop-blur">
 			<div className="container flex h-16 items-center justify-between">
 				<Link
 					to="/about"
