@@ -7,8 +7,11 @@ import { Card } from '@/components/ui/card'
 import { Section, SectionHeader } from '@/components/ui/section'
 import experienceData from '@/data/experience.json'
 import { Download, ExternalLink, Calendar, MapPin } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
 
 export default function About() {
+	const { t } = useTranslation()
+
 	return (
 		<div className="min-h-screen">
 			{/* Hero Section */}
@@ -19,18 +22,16 @@ export default function About() {
 				<div className="bg-background/40 absolute inset-0 backdrop-blur-sm" />
 				<div className="container relative z-10 text-center">
 					<h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-6xl">
-						Hi, I'm <span className="text-primary">Estevan Pithan</span>
+						{t('about.hero.greeting')} <span className="text-primary">{t('about.hero.name')}</span>
 					</h1>
-					<p className="text-muted-foreground mx-auto mb-8 max-w-2xl text-xl">
-						Frontend Engineer & UI Enthusiast crafting beautiful, accessible web experiences with modern technologies
-					</p>
+					<p className="text-muted-foreground mx-auto mb-8 max-w-2xl text-xl">{t('about.hero.description')}</p>
 					<div className="flex flex-col justify-center gap-4 sm:flex-row">
 						<Button
 							size="lg"
 							className="transition-spring hover:scale-105"
 						>
 							<ExternalLink className="mr-2 h-4 w-4" />
-							Hire me
+							{t('about.hero.hireMe')}
 						</Button>
 						<Button
 							variant="outline"
@@ -38,7 +39,7 @@ export default function About() {
 							className="transition-spring hover:scale-105"
 						>
 							<Download className="mr-2 h-4 w-4" />
-							Download CV
+							{t('about.hero.downloadCV')}
 						</Button>
 					</div>
 				</div>
@@ -48,22 +49,11 @@ export default function About() {
 			<Section>
 				<div className="grid items-center gap-12 lg:grid-cols-2">
 					<div>
-						<h2 className="mb-6 text-3xl font-bold tracking-tight">About Me</h2>
+						<h2 className="mb-6 text-3xl font-bold tracking-tight">{t('about.bio.title')}</h2>
 						<div className="text-muted-foreground space-y-6">
-							<p>
-								I'm a passionate frontend engineer with over 6 years of experience building scalable web applications
-								and intuitive user interfaces. My journey began with a curiosity for how websites work, which evolved
-								into a deep appreciation for the intersection of design and technology.
-							</p>
-							<p>
-								I specialize in React, TypeScript, and modern CSS frameworks, with a keen eye for performance
-								optimization and accessibility. I believe that great software should not only function flawlessly but
-								also provide delightful user experiences.
-							</p>
-							<p>
-								When I'm not coding, you'll find me exploring new design trends, contributing to open-source projects,
-								or sharing knowledge through technical writing and mentoring.
-							</p>
+							<p>{t('about.bio.paragraph1')}</p>
+							<p>{t('about.bio.paragraph2')}</p>
+							<p>{t('about.bio.paragraph3')}</p>
 						</div>
 
 						<div className="mt-6 flex flex-wrap gap-2">
@@ -94,8 +84,8 @@ export default function About() {
 			{/* Journey Timeline */}
 			<Section className="bg-muted/30">
 				<SectionHeader
-					title="My Journey"
-					description="A timeline of my professional growth and key milestones"
+					title={t('about.journey.title')}
+					description={t('about.journey.description')}
 				/>
 
 				<div className="mx-auto max-w-4xl">
@@ -105,8 +95,8 @@ export default function About() {
 								<Calendar className="h-5 w-5" />
 							</div>
 							<div className="flex-1">
-								<h3 className="text-lg font-semibold">Started Learning Web Development</h3>
-								<p className="text-muted-foreground">2017 • Self-taught HTML, CSS, and JavaScript</p>
+								<h3 className="text-lg font-semibold">{t('about.journey.timeline.learning.title')}</h3>
+								<p className="text-muted-foreground">{t('about.journey.timeline.learning.description')}</p>
 							</div>
 						</div>
 
@@ -115,8 +105,8 @@ export default function About() {
 								<MapPin className="h-5 w-5" />
 							</div>
 							<div className="flex-1">
-								<h3 className="text-lg font-semibold">First Professional Role</h3>
-								<p className="text-muted-foreground">2018 • Full Stack Developer at StartupXYZ</p>
+								<h3 className="text-lg font-semibold">{t('about.journey.timeline.firstJob.title')}</h3>
+								<p className="text-muted-foreground">{t('about.journey.timeline.firstJob.description')}</p>
 							</div>
 						</div>
 
@@ -125,8 +115,8 @@ export default function About() {
 								<ExternalLink className="h-5 w-5" />
 							</div>
 							<div className="flex-1">
-								<h3 className="text-lg font-semibold">Specialized in Frontend</h3>
-								<p className="text-muted-foreground">2020 • Focused on React and modern frontend technologies</p>
+								<h3 className="text-lg font-semibold">{t('about.journey.timeline.specialization.title')}</h3>
+								<p className="text-muted-foreground">{t('about.journey.timeline.specialization.description')}</p>
 							</div>
 						</div>
 					</div>
@@ -136,8 +126,8 @@ export default function About() {
 			{/* Experience Section */}
 			<Section>
 				<SectionHeader
-					title="Professional Experience"
-					description="Companies I've had the privilege to work with"
+					title={t('about.experience.title')}
+					description={t('about.experience.description')}
 				/>
 
 				<div className="grid gap-6 md:grid-cols-2">
