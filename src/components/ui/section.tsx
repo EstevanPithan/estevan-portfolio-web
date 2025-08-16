@@ -10,7 +10,7 @@ export function Section({ children, className, id }: SectionProps) {
 	return (
 		<section
 			id={id}
-			className={cn('bg-background flex grow items-center justify-center p-2 py-16 md:py-24', className)}
+			className={cn('py-16 md:py-24', className)}
 		>
 			<div className="container">{children}</div>
 		</section>
