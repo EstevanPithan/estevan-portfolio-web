@@ -72,6 +72,12 @@
 	--sidebar-ring: oklch(0.488 0.243 264.376);
 }
 
+@layer components {
+	.container {
+		@apply mx-auto px-8; /* px-8 = 2rem */
+	}
+}
+
 /* Scrollbar styles */
 ::-webkit-scrollbar {
 	@apply h-[5px] w-[5px] rounded-full;
