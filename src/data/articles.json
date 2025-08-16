@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "slug": "modern-css-best-practices",
+    "title": "Modern CSS Best Practices for 2024",
+    "date": "2024-01-15",
+    "excerpt": "Explore the latest CSS features and techniques that will make your stylesheets more maintainable and performant in 2024.",
+    "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+    "content": "# Modern CSS Best Practices for 2024\n\nCSS has evolved significantly in recent years. In this article, we'll explore the latest features and best practices that will help you write better, more maintainable CSS in 2024.\n\n## Container Queries\n\nContainer queries are one of the most exciting additions to CSS. Unlike media queries that respond to viewport size, container queries respond to the size of a containing element.\n\n```css\n.card {\n  container-type: inline-size;\n}\n\n@container (min-width: 300px) {\n  .card-content {\n    display: flex;\n    gap: 1rem;\n  }\n}\n```\n\n## CSS Nesting\n\nNative CSS nesting is now supported in modern browsers, reducing the need for preprocessors like Sass.\n\n```css\n.button {\n  background: blue;\n  \n  &:hover {\n    background: darkblue;\n  }\n  \n  &.primary {\n    background: green;\n  }\n}\n```\n\n## Logical Properties\n\nLogical properties make your CSS more international by using logical directions instead of physical ones.\n\n```css\n.element {\n  margin-inline-start: 1rem;\n  padding-block: 2rem;\n  border-inline-end: 1px solid #ccc;\n}\n```\n\n## Conclusion\n\nThese modern CSS features help create more maintainable, accessible, and international-friendly stylesheets. Start incorporating them into your projects today!",
+    "tags": ["CSS", "Web Development", "Best Practices"]
+  },
+  {
+    "id": "2",
+    "slug": "react-performance-optimization",
+    "title": "React Performance Optimization Techniques",
+    "date": "2024-01-08",
+    "excerpt": "Learn essential techniques to optimize your React applications for better performance and user experience.",
+    "imageUrl": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=800&h=600&fit=crop",
+    "content": "# React Performance Optimization Techniques\n\nReact applications can become slow as they grow. Here are proven techniques to keep your React apps fast and responsive.\n\n## 1. Use React.memo for Component Memoization\n\n```jsx\nconst ExpensiveComponent = React.memo(({ data }) => {\n  return (\n    <div>\n      {data.map(item => <Item key={item.id} {...item} />)}\n    </div>\n  );\n});\n```\n\n## 2. Optimize Re-renders with useMemo and useCallback\n\n```jsx\nconst Component = ({ items, filter }) => {\n  const filteredItems = useMemo(() => {\n    return items.filter(item => item.category === filter);\n  }, [items, filter]);\n  \n  const handleClick = useCallback((id) => {\n    // Handle click logic\n  }, []);\n  \n  return (\n    <div>\n      {filteredItems.map(item => (\n        <Item key={item.id} item={item} onClick={handleClick} />\n      ))}\n    </div>\n  );\n};\n```\n\n## 3. Code Splitting with React.lazy\n\n```jsx\nconst LazyComponent = React.lazy(() => import('./LazyComponent'));\n\nfunction App() {\n  return (\n    <Suspense fallback={<div>Loading...</div>}>\n      <LazyComponent />\n    </Suspense>\n  );\n}\n```\n\n## 4. Virtual Scrolling for Large Lists\n\nFor large datasets, consider using libraries like react-window or react-virtualized to render only visible items.\n\n## Conclusion\n\nBy implementing these optimization techniques, you can significantly improve your React application's performance and provide a better user experience.",
+    "tags": ["React", "Performance", "JavaScript", "Optimization"]
+  },
+  {
+    "id": "3",
+    "slug": "typescript-tips-tricks",
+    "title": "TypeScript Tips and Tricks for Better Code",
+    "date": "2024-01-01",
+    "excerpt": "Discover advanced TypeScript features and patterns that will make your code more type-safe and maintainable.",
+    "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+    "content": "# TypeScript Tips and Tricks for Better Code\n\nTypeScript provides powerful features beyond basic type annotations. Let's explore some advanced patterns that will improve your code quality.\n\n## 1. Utility Types\n\nTypeScript includes many built-in utility types that can save you time:\n\n```typescript\ninterface User {\n  id: string;\n  name: string;\n  email: string;\n  age: number;\n}\n\n// Pick specific properties\ntype UserSummary = Pick<User, 'id' | 'name'>;\n\n// Omit properties\ntype CreateUser = Omit<User, 'id'>;\n\n// Make all properties optional\ntype PartialUser = Partial<User>;\n\n// Make all properties required\ntype RequiredUser = Required<User>;\n```\n\n## 2. Conditional Types\n\n```typescript\ntype ApiResponse<T> = T extends string \n  ? { message: T } \n  : { data: T };\n\ntype StringResponse = ApiResponse<string>; // { message: string }\ntype DataResponse = ApiResponse<User[]>; // { data: User[] }\n```\n\n## 3. Template Literal Types\n\n```typescript\ntype EventName<T extends string> = `on${Capitalize<T>}`;\ntype ClickEvent = EventName<'click'>; // 'onClick'\ntype HoverEvent = EventName<'hover'>; // 'onHover'\n```\n\n## 4. Mapped Types\n\n```typescript\ntype Getters<T> = {\n  [K in keyof T as `get${Capitalize<string & K>}`]: () => T[K];\n};\n\ntype UserGetters = Getters<User>;\n// {\n//   getId: () => string;\n//   getName: () => string;\n//   getEmail: () => string;\n//   getAge: () => number;\n// }\n```\n\n## Conclusion\n\nThese advanced TypeScript features help create more robust and maintainable code. Start incorporating them into your projects to leverage TypeScript's full potential!",
+    "tags": ["TypeScript", "JavaScript", "Types", "Best Practices"]
+  }
+]

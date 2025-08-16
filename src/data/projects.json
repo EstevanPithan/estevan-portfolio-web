@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "category": "professional",
+    "title": "E-commerce Platform Redesign",
+    "summary": "Complete UI/UX overhaul for a major retail platform, improving conversion rates by 35% and user engagement by 50%.",
+    "imageUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+    "linkUrl": "https://example.com/ecommerce",
+    "year": 2024,
+    "company": "TechCorp Inc.",
+    "tags": ["React", "TypeScript", "Tailwind CSS", "Figma", "A/B Testing"]
+  },
+  {
+    "id": "2",
+    "category": "professional",
+    "title": "Banking Dashboard Interface",
+    "summary": "Modern dashboard for financial institutions with real-time analytics, secure data visualization, and responsive design.",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    "linkUrl": null,
+    "year": 2023,
+    "company": "FinanceFlow",
+    "tags": ["Vue.js", "D3.js", "SCSS", "Security", "Charts"]
+  },
+  {
+    "id": "3",
+    "category": "professional",
+    "title": "Healthcare Management System",
+    "summary": "Patient management interface for healthcare providers with appointment scheduling, medical records, and telemedicine features.",
+    "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop",
+    "linkUrl": "https://example.com/healthcare",
+    "year": 2023,
+    "company": "MedTech Solutions",
+    "tags": ["React", "Node.js", "MongoDB", "Socket.io", "HIPAA"]
+  },
+  {
+    "id": "4",
+    "category": "personal",
+    "title": "Weather Forecast App",
+    "summary": "Beautiful weather application with location-based forecasts, interactive maps, and customizable widgets.",
+    "imageUrl": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=600&fit=crop",
+    "linkUrl": "https://github.com/estevanpithan/weather-app",
+    "year": 2024,
+    "company": null,
+    "tags": ["React Native", "TypeScript", "Weather API", "Maps", "iOS/Android"]
+  },
+  {
+    "id": "5",
+    "category": "personal",
+    "title": "Task Management Tool",
+    "summary": "Minimalist productivity app with drag-and-drop functionality, time tracking, and team collaboration features.",
+    "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+    "linkUrl": "https://github.com/estevanpithan/task-manager",
+    "year": 2023,
+    "company": null,
+    "tags": ["React", "Framer Motion", "Supabase", "PWA", "Offline"]
+  },
+  {
+    "id": "6",
+    "category": "personal",
+    "title": "Photography Portfolio",
+    "summary": "Responsive portfolio website for photographers with image galleries, client booking system, and blog functionality.",
+    "imageUrl": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&h=600&fit=crop",
+    "linkUrl": "https://github.com/estevanpithan/photo-portfolio",
+    "year": 2022,
+    "company": null,
+    "tags": ["Next.js", "Sanity CMS", "Stripe", "Cloudinary", "SEO"]
+  }
+]
