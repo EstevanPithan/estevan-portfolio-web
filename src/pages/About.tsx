@@ -16,7 +16,7 @@ export default function About() {
 				className="relative flex min-h-[70vh] items-center justify-center bg-cover bg-center bg-no-repeat"
 				style={{ backgroundImage: `url(${heroBackground})` }}
 			>
-				<div className="bg-background/80 absolute inset-0 backdrop-blur-sm" />
+				<div className="bg-background/40 absolute inset-0 backdrop-blur-sm" />
 				<div className="container relative z-10 text-center">
 					<h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-6xl">
 						Hi, I'm <span className="text-primary">Estevan Pithan</span>
