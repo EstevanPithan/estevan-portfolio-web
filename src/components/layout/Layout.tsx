@@ -4,7 +4,7 @@ import { ReactNode } from 'react'
 
 export default function Layout({ children }: { children: ReactNode }) {
 	return (
-		<div className="min-w-screen flex min-h-screen flex-col items-center justify-center">
+		<div className="flex min-h-screen flex-col">
 			<Header />
 			<main className="w-full">{children}</main>
 			<Footer />
