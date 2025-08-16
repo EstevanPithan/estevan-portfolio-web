@@ -1,0 +1,127 @@
+{
+  "lightMode": "Modo Claro",
+  "darkMode": "Modo Escuro",
+  "about": "Sobre",
+  "contact": "Contato",
+  "email": "Email",
+  "password": "Senha",
+  "errors": {
+    "authentication": "E-mail ou senha inválidos",
+    "tryAgain": "Por favor, verifique suas credenciais e tente novamente",
+    "validation": {
+      "emailRequired": "E-mail é obrigatório",
+      "passwordRequired": "Senha é obrigatória"
+    }
+  },
+  "auth": {
+    "enterCredentials": "Digite suas credenciais para acessar sua conta",
+    "username": "Usuário",
+    "signIn": "Entrar",
+    "signingIn": "Entrando...",
+    "backToHome": "Voltar à página inicial",
+    "email": "Email",
+    "createAccount": "Criar conta",
+    "signUp": "Cadastrar",
+    "createAccountDesc": "Preencha o formulário para criar sua conta.",
+    "accountCreated": "Conta criada com sucesso!",
+    "accountCreatedDesc": "Agora você pode fazer login com sua nova conta.",
+    "alreadyHaveAccount": "Já tem uma conta? Faça login",
+    "error": "Erro",
+    "errorDesc": "Ocorreu um erro ao criar sua conta. Por favor, tente novamente.",
+    "name": "Nome",
+    "cpf": "CPF",
+    "birthday": "Data de nascimento",
+    "pickDate": "Escolha uma data"
+  },
+  "languages": {
+    "enUS": "Inglês Americano",
+    "ptBR": "Português Brasileiro"
+  },
+  "landingPage": {
+    "header": {
+      "features": "Recursos",
+      "pricing": "Preços",
+      "contact": "Contato",
+      "signIn": "Entrar",
+      "startFree": "Começar Grátis",
+      "ai": "Ai",
+      "about": "sobre"
+    },
+    "hero": {
+      "newBadge": "Novo: IA Integrada",
+      "title": "Controle seus gastos com {intelligence}",
+      "titleHighlight": "inteligência",
+      "description": "Monitore, analise e otimize seus gastos mensais com a ajuda da inteligência artificial. Tenha controle total sobre suas finanças de forma simples e intuitiva.",
+      "startFree": "Começar Gratuitamente",
+      "viewDemo": "Ver Demo",
+      "freeForever": "Grátis para sempre",
+      "noCreditCard": "Sem cartão de crédito",
+      "imageAlt": "Pessoa gerenciando gastos no computador"
+    },
+    "features": {
+      "title": "Recursos que fazem a diferença",
+      "subtitle": "Descubra como nossa plataforma pode revolucionar o controle dos seus gastos",
+      "intelligentAnalysis": {
+        "title": "Análise Inteligente",
+        "description": "Algoritmos avançados analisam seus padrões de gastos e identificam oportunidades de economia"
+      },
+      "totalSecurity": {
+        "title": "Segurança Total",
+        "description": "Seus dados financeiros protegidos com criptografia de nível bancário"
+      },
+      "completeAutomation": {
+        "title": "Automação Completa",
+        "description": "Categorização automática de gastos e relatórios personalizados"
+      }
+    },
+    "ai": {
+      "title": "Inteligência Artificial a seu favor",
+      "description": "Nossa IA analisa seus hábitos de consumo, prediz gastos futuros e sugere estratégias personalizadas para você economizar mais.",
+      "features": {
+        "predictions": "Previsões de gastos mensais com 95% de precisão",
+        "alerts": "Alertas inteligentes para gastos incomuns",
+        "suggestions": "Sugestões personalizadas de economia"
+      },
+      "tryFree": "Experimentar IA Gratuitamente",
+      "imageAlt": "Robô com inteligência artificial"
+    },
+    "success": {
+      "title": "Milhares de usuários já economizam mais",
+      "description": "Junte-se a mais de 50.000 pessoas que já transformaram suas finanças e conseguiram economizar em média 30% dos seus gastos mensais.",
+      "stats": {
+        "activeUsers": "Usuários Ativos",
+        "averageSavings": "Economia Média"
+      },
+      "rating": "4.8/5 (2.4k avaliações)",
+      "imageAlt": "Pessoa satisfeita com os resultados"
+    },
+    "cta": {
+      "title": "Comece a controlar seus gastos hoje mesmo",
+      "description": "Cadastre-se gratuitamente e tenha acesso completo a todas as funcionalidades. Sem compromisso, sem cartão de crédito.",
+      "createAccount": "Criar Conta Grátis",
+      "talkToSpecialist": "Falar com Especialista"
+    },
+    "footer": {
+      "description": "Controle inteligente de gastos para uma vida financeira mais saudável.",
+      "product": {
+        "title": "Produto",
+        "features": "Recursos",
+        "pricing": "Preços",
+        "api": "API"
+      },
+      "company": {
+        "title": "Empresa",
+        "about": "Sobre nós",
+        "blog": "Blog",
+        "careers": "Carreiras"
+      },
+      "support": {
+        "title": "Suporte",
+        "helpCenter": "Central de Ajuda",
+        "contact": "Contato",
+        "status": "Status"
+      },
+      "copyright": "© 2025 TrackWise. Todos os direitos reservados."
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "lightMode": "Light Mode",
+  "darkMode": "Dark Mode",
+  "home": {
+    "title": "Home",
+    "empty": "You don't have any data yet.",
+    "getStarted": "Get started",
+    "retry": "Retry",
+    "error": "Unable to load data."
+  },
+  "about": "About",
+  "contact": "Contact",
+  "email": "Email",
+  "password": "Password",
+  "errors": {
+    "authentication": "Invalid email or password",
+    "tryAgain": "Please check your credentials and try again",
+    "validation": {
+      "emailRequired": "Email is required",
+      "passwordRequired": "Password is required"
+    }
+  },
+  "languages": {
+    "enUS": "American English",
+    "ptBR": "Brazilian Portuguese"
+  },
+  "app": {
+    "name": "TrackWise"
+  },
+  "landingPage": {
+    "header": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "signIn": "Sign In",
+      "startFree": "Start Free",
+      "ai": "Ai",
+      "about": "About"
+    },
+    "hero": {
+      "newBadge": "New: AI Integrated",
+      "title": "Control your spending with {intelligence}",
+      "titleHighlight": "intelligence",
+      "description": "Monitor, analyze, and optimize your monthly expenses with the help of artificial intelligence. Have total control over your finances in a simple and intuitive way.",
+      "startFree": "Start Free",
+      "viewDemo": "View Demo",
+      "freeForever": "Free forever",
+      "noCreditCard": "No credit card",
+      "imageAlt": "Person managing expenses on computer"
+    },
+    "features": {
+      "title": "Features that make a difference",
+      "subtitle": "Discover how our platform can revolutionize your expense control",
+      "intelligentAnalysis": {
+        "title": "Intelligent Analysis",
+        "description": "Advanced algorithms analyze your spending patterns and identify saving opportunities"
+      },
+      "totalSecurity": {
+        "title": "Total Security",
+        "description": "Your financial data protected with bank-level encryption"
+      },
+      "completeAutomation": {
+        "title": "Complete Automation",
+        "description": "Automatic expense categorization and personalized reports"
+      }
+    },
+    "ai": {
+      "title": "Artificial Intelligence in your favor",
+      "description": "Our AI analyzes your consumption habits, predicts future expenses, and suggests personalized strategies to help you save more.",
+      "features": {
+        "predictions": "Monthly expense predictions with 95% accuracy",
+        "alerts": "Smart alerts for unusual expenses",
+        "suggestions": "Personalized saving suggestions"
+      },
+      "tryFree": "Try AI for Free",
+      "imageAlt": "Robot with artificial intelligence"
+    },
+    "success": {
+      "title": "Thousands of users already save more",
+      "description": "Join over 50,000 people who have already transformed their finances and managed to save an average of 30% of their monthly expenses.",
+      "stats": {
+        "activeUsers": "Active Users",
+        "averageSavings": "Average Savings"
+      },
+      "rating": "4.8/5 (2.4k reviews)",
+      "imageAlt": "Person satisfied with results"
+    },
+    "cta": {
+      "title": "Start controlling your expenses today",
+      "description": "Sign up for free and get full access to all features. No commitment, no credit card required.",
+      "createAccount": "Create Free Account",
+      "talkToSpecialist": "Talk to Specialist"
+    },
+    "footer": {
+      "description": "Smart expense control for a healthier financial life.",
+      "product": {
+        "title": "Product",
+        "features": "Features",
+        "pricing": "Pricing",
+        "api": "API"
+      },
+      "company": {
+        "title": "Company",
+        "about": "About us",
+        "blog": "Blog",
+        "careers": "Careers"
+      },
+      "support": {
+        "title": "Support",
+        "helpCenter": "Help Center",
+        "contact": "Contact",
+        "status": "Status"
+      },
+      "copyright": "© 2025 TrackWise. All rights reserved."
+    }
+  }
+}
